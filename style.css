@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("./fonts/Gilroy-Bold.ttf");
+}
+@font-face {
+    font-family: "Gilroy-SemiBold";
+    src: url("./fonts/Gilroy-SemiBold.ttf");
+}
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("./fonts/Gilroy-Medium.ttf");
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    scroll-behavior: smooth;
+    background: #fff;
+    font-family: "Gilroy-Bold", sans-serif;
+    color: #000;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+button {
+    border: none;
+    cursor: pointer;
+    /* outline: none; */
+}
+.container {
+    max-width: 1319px;
+    margin: 0 auto;
+}
+.header {
+    margin-bottom: 36px;
+    font-family: "Gilroy-SemiBold", sans-serif;
+}
+.header-content {
+    padding-top: 26px;
+    padding-bottom: 48px;
+    
+    display: flex;
+}
+.header-logo {
+    
+}
+.navigation {
+    font-weight: 400;
+    font-size: 14px;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 337px;
+}
+.home-icon {
+    color: #F25822;
+}
+.features-icon {
+    display: flex;
+    gap: 5px;
+}
+.nav-link {
+}
+.main {
+    margin-bottom: 56px;
+}
+.main-content {
+    display: flex;
+    gap: 13px;
+    /* justify-content: space-between; */
+}
+.content {
+    max-width: 589px;
+}
+.content-title {
+    margin-bottom: 17px;
+    max-width: 522px;
+    font-weight: 400;
+    font-size: 60px;
+}
+.content-text {
+    max-width: 394px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #888;
+    margin-bottom: 35px;
+}
+.content-btn-box {
+    display: flex;
+    gap: 20px;
+}
+.content-btn {
+    border-radius: 50px;
+    width: 140px;
+    height: 50px;
+    box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+    background: #f25822;
+    color: #fff;
+
+    font-weight: 400;
+    font-size: 15px;
+}
+.content-btn-watch {
+    background: none;
+    box-shadow: none;
+    color: #aaa;
+}
+.content-img {
+}
+.footer {
+    margin-bottom: 47px;
+}
+.logos {
+    padding-top: 59px;
+    padding-bottom: 49px;
+    display: flex;
+    gap: 48px;
+    /* justify-content: space-between; */
+}
